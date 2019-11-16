@@ -1,0 +1,27 @@
+@font-face
+{
+    font-family: Comforta;
+    src: url(/font/Comforta.ttf);
+}
+
+.card{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 4%;
+	background-color: #bfbfbf;
+
+}
+
+.buttonstyle{
+	color:#3c5baa;
+	font-family: Comforta;
+	background-color: #bfbfbf;
+    font-size: 115%;
+
+}
+
+.buttonstyle:hover{
+	color: white;
+	background-color: #3c5baa
+}
+

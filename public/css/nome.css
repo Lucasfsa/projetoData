@@ -1,0 +1,29 @@
+
+
+.buttonredefinir{
+    background-color: white;
+    color: #3c5baa;
+    margin-top: 2%;
+    border-color: transparent;
+    border-radius: 3px;
+    margin-left: 5%;
+
+}
+
+.buttonredefinir:hover{
+    background-color: #3c5baa;
+    color: white;
+}
+
+.form-control{
+    margin-left: 5%;
+    width: 90%;
+}
+
+.alert{
+    background-color: white;
+}
+
+.card label{
+    margin-left: 5%;
+}

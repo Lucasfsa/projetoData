@@ -1,0 +1,30 @@
+.card{
+    margin-bottom: 5%;
+}
+.buttonredefinir{
+    background-color: white;
+    color: #3c5baa;
+
+    border-color: transparent;
+    border-radius: 3px;
+    margin-left: 5%;
+
+}
+
+.buttonredefinir:hover{
+    background-color: #3c5baa;
+    color: white;
+}
+
+.form-control{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.alert{
+    background-color: white;
+}
+
+.form-group label{
+    margin-left: 5%;
+}

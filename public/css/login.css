@@ -1,0 +1,35 @@
+@font-face
+{
+    font-family: Comforta;
+    src: url(/font/Comforta.ttf);
+}
+
+.card {
+    background: rgba(255, 255, 255, .5);
+}
+
+.card-header {
+    border: none;
+}
+
+.login-card label {
+    color: #3c5baa;
+}
+
+.login-card .btn-login, .login-card .btn-link {
+    color: #3c5baa;
+    font-weight: 600;
+}
+
+.login-card .btn-login {
+    background: #fff;
+}
+
+.login-card .btn-login:hover {
+    background: #3c5baa;
+    color: #fff;
+}
+
+.login-card .btn-link:hover {
+    color: #244392;
+}

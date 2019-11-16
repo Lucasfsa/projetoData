@@ -1,0 +1,206 @@
+body,html
+{
+	background-color:lightgrey;
+}
+
+                                        /*fontes usadas*/
+
+@font-face
+{
+
+    font-family: Quinone;
+    src: url(/font/Quinone.otf);
+
+}
+
+@font-face
+{
+    font-family: Comforta;
+    src: url(/font/Comforta.ttf);
+}
+
+                                         /*Cabeçalho*/
+
+#cabecalho
+{
+
+    text-align: center;
+    margin-top: 12px;
+
+}
+
+#imgcabecalho
+{
+
+    width: 150px;
+    height: 110px;
+}
+
+
+/* navbar */
+
+.navbar {
+    background: #3c5baa;
+    border-bottom: 10px solid #999999;
+    font-family: Quinone;
+    font-size: 1.1em;
+}
+
+.nav-link:hover { text-shadow: 1px 1px 1px black; }
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+/* sidebar */
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #3c5baa;
+    border-right: 10px solid #999999;
+    font-family: Quinone;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+#sidebar ul p
+{
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a
+{
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover
+{
+    color: #3c5baa;
+    background:  white;
+
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #355197;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+#sidebar .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #355197;
+}
+
+#sidebarCollapse
+{
+	background-color: #355197;
+    color: white;
+}
+
+#sidebarCollapse:hover
+{
+	background-color: #fff;
+	color: #3c5baa;
+
+}
+
+.line-color {
+    border-top-color: rgba(255, 255, 255, 0.2)
+}
+
+.space {
+    border: none;
+    margin: 0.2rem 0;
+}
+
+#content {
+    width: calc(100% - 250px);
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #3c5baa;
+}
+
+#content.active {
+    width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+
+                                                 /* sidebar button */
+
+#sidebar ul li.active>a, a[aria-expanded="true"] {
+    color: #fff;
+    background-color: #355197;
+}
+
+ul ul a {
+    font-size: 1em !important;
+    padding-left: 30px !important;
+    background: #355197;
+}

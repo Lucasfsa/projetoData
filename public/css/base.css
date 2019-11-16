@@ -1,0 +1,36 @@
+body
+{
+
+background-image: url("/imagem/bg-laravel.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+@font-face
+{
+
+    font-family: Quinone;
+    src: url(/font/Quinone.otf);
+
+}
+
+@font-face
+{
+    font-family: Comforta;
+    src: url(/font/Comforta.ttf);
+}
+
+.navbar
+{
+background-color: transparent;
+border-radius: 1px;
+margin-bottom: 1%;	
+}
+
+#item_nav
+{
+	color: white;
+	margin-left: 1%;
+}
+
